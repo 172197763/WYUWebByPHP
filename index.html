@@ -14,6 +14,48 @@ and open the template in the editor.
         <link href="Style/jquery.mobile-1.4.5.css" rel="stylesheet" type="text/css"/>
     </head>
     <body>
-        <div>TODO write content</div>
+        <div data-role="page">
+            <div data-role="panel" id="DivMainMenu">
+                <a data-role="button" href="#">title</a>
+                <ul data-role="listview">
+                    <li><a href="#first" >学院概况</a></li>
+                    <li><a href="#">人才培养</a></li>
+                    <li><a href="#">科学研究</a></li>
+                    <li><a href="#">党建工作</a></li>
+                    <li><a href="#">学生工作</a></li>
+                    <li><a href="#">对外培训</a></li>
+                    <li><a href="#">校友工作</a></li>
+                    <li><a href="#">资源中心</a></li>
+                </ul>
+            </div> 
+            <div data-role="panel" id="first">
+                <ul data-role="listview">
+                    <li>   <a href="#DivMainMenu" >1</a></li>
+                    <li><a href="#">2</a></li>
+                    <li><a href="#">3</a></li>
+                    <li><a href="#">4</a></li>
+                    <li><a href="#">学生工作</a></li>
+                    <li><a href="#">对外培训</a></li>
+                    <li><a href="#">校友工作</a></li>
+                    <li><a href="#">资源中心</a></li>
+                </ul>
+            </div> 
+            <div data-role="header" style="width: 100%;">
+                <a href="#DivMainMenu" class="ui-btn ui-btn-icon-left" >打开面板</a>
+                <img src="image/header.png" alt="" style="width: inherit;"/>
+            </div>
+
+            <div data-role="main" class="ui-content">
+                <!--<figure>-->
+                    
+                <!--</figure>-->
+            </div>
+
+            <div data-role="footer">
+                <h2>办公室电话：0750-3299709</h2>
+                <h3 style="padding-top: 0px;">电子邮箱：wyu_computer@163.com</h3>
+            </div>
+
+        </div>
     </body>
 </html>
