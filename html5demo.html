@@ -13,12 +13,36 @@ and open the template in the editor.
     </head>
     <body>
         <article>
-            <header><hgroup>
+            <header>
+                <hgroup>
                     <h1>你好</h1>
                     <h2>hello</h2>
                 </hgroup>
             </header>
-            <div><p>this is content</p></div>
+            <form>
+                <label  title="username:" for="name">username:</label>
+                <input id="name" type="text" autofocus required placeholder="name" pattern="[0-9]{3}" />
+                <label for="weight">
+                    <input id="weight" type="range" min="50" max="500">
+                    <input id="date" type="date" min="2000-01-01" max="2016-01-01">
+                <input type="submit">
+                
+            </form>
+              <time>2015-10-09</time>
+              <aside style="float:left">
+                <nav>
+                    <h2>articles</h2>
+                    <ul>
+                        <li><a href="www.baidu.com" target="_blank">baidu</a></li>
+                        <li><a href="www.163.com">163</a></li>
+                    </ul>
+                </nav>
+            </aside>
+               <p>123219721348732687463287621749817987123123123</p>
+                <p>123219721348732687463287621749817987123123123</p>
+            <div><p>this is content</p>
+                <aside>我是一个aside</aside>
+            </div>
             <figure>
                 <img src="image/11.jpg">
                 <figcaption>圖片</figcaption>
