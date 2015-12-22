@@ -1,0 +1,13 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 2015-12-22, 21:52:33
+    Author     : enjoy
+*/
+#DivMainMenu li{list-style-type: none;border-top: 1px solid #0088bb;;height: 50px;line-height: 45px;}
+#DivMainMenu ul{padding-left: 0px;}
+#DivMainMenu li a{text-decoration: none; color: black; font-weight: normal !important;    padding-left: 30px;letter-spacing: 2px;}
+body{ font-family: "microsoft yahei", "Times New Roman", "宋体", Times, serif;font-weight: normal;font-size: 15px;}    
