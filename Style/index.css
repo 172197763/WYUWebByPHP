@@ -9,5 +9,6 @@ and open the template in the editor.
 */
 #DivMainMenu li{list-style-type: none;border-top: 1px solid #0088bb;;height: 50px;line-height: 45px;}
 #DivMainMenu ul{padding-left: 0px;}
-#DivMainMenu li a{text-decoration: none; color: black; font-weight: normal !important;    padding-left: 30px;letter-spacing: 2px;}
+#DivMainMenu li a{text-decoration: none; color: #005599; font-weight: normal !important;    padding-left: 20px;letter-spacing: 2px;}
+#DivMainMenu li i{padding-left: 10px;}
 body{ font-family: "microsoft yahei", "Times New Roman", "宋体", Times, serif;font-weight: normal;font-size: 15px;}    
