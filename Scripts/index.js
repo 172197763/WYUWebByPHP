@@ -24,5 +24,25 @@ $(document).ready(function () {
 function init() {
     $("#DivDDLMenu").hide();
     $(".ulitem").hide();
+     initSwiper();
+}
+function initSwiper(){
+    var mySwiper = new Swiper ('.swiper-container', {
+    direction: 'horizontal',
+    loop: true,
+    autoplay : 4000,
+    speed:1000,
+    autoplayDisableOnInteraction:true,//触摸后不滑动
+    //heigth: 150,
+    // 如果需要分页器
+    pagination: '.swiper-pagination',
+    
+    // 如果需要前进后退按钮
+    //nextButton: '.swiper-button-next',
+    //prevButton: '.swiper-button-prev',
+    
+    // 如果需要滚动条
+    //scrollbar: '.swiper-scrollbar',
+  })        
 }
 
