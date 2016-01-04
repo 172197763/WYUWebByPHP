@@ -1,0 +1,12 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 2015-12-30, 23:10:29
+    Author     : enjoy
+*/
+#PageHeader{height: 40px;background-color: #E6E4E4;line-height: 40px;}
+nav a{text-decoration: none;font-size: 15px}
+.File{    height: 75px;width: 50px;text-align: center;margin: 25px;display: inline-block;}

@@ -4,25 +4,20 @@ To change this template file, choose Tools | Templates
 and open the template in the editor.
 */
 /* 
-    Created on : 2015-12-22, 21:52:33
+    Created on : 2015-12-30, 21:13:49
     Author     : enjoy
 */
-h3,p,dd,dl{margin: 0;padding: 0;border: 0;outline: 0;}
-section{    margin: 15px auto;}
+#PageHeader{height: 40px;background-color: #E6E4E4;line-height: 40px;}
+nav a{text-decoration: none;font-size: 15px}
+section{}
 aside{color: rgb(0,150,220);height: 35px;background-color: #E9F1F1;;padding-top: 5px;}
-#DivDDLMenu ul{ background-color: rgb(0,150,220);/* padding-top: 0px; */margin-top: 0px}
-#DivDDLMenu ul li{color: white;border-top: 1px solid #00d7d7;line-height: 40px;text-indent: 1em;}
-#DivDDLMenu{position: absolute; top: 50px;z-index: 5000;width: 100%}
-#ImgHeader{float: left;height: 49px;}
-#DivPageHeader{overflow: auto;}
 #PageContent a{text-decoration: none;color: black;}
 .ulitem li{border-top: 0px solid;color: #ccc !important; text-indent: 2em !important;}              
 .ulitem li a{border-top: 0px solid;color: #ccc !important;text-decoration: none}
-.Ncard{padding: 10px;margin-bottom: 1px;background-color: white;}
+.Ncard{padding: 10px;margin-bottom: 1px;background-color: white;margin-top: 0px;}
 .Ncard-dt{float: left;    margin-right: 10px;}
 .Ncard-dd{    margin-left: 65px;}
 .Ncard-dd-h3{font-weight: normal;}
 .Ncard-dd-p{font-size: 13px;color: #9b9b9b;}
 .TitleMore{float: right;margin-right: 10px;  font-size: 16px;line-height: 30px;}
 .BigTitle{font-size: 20px;margin-left: 10px;}
-

@@ -7,8 +7,22 @@ and open the template in the editor.
     Created on : 2015-12-29, 17:08:49
     Author     : enjoy
 */
-#DivHeader{text-align: center;}
+body{background-color: #b8e8E8;padding: 0px;margin: 0px;font-family: Microsoft\ YaHei,Lucida,Verdana,Hiragino\ Sans\ GB,STHeiti,WenQuanYi\ Micro\ Hei,Droid\ Sans\ Fallback,SimSun,sans-serif;font-size: 14px; }
+#DivHeader{text-align: center;padding: 10px;}
 .ReturnPrePage{position: absolute;left: 0}    
 .PageTitle{display: inline; font-size: 25px}
-body{padding: 0px}
+
+.LoadingBar{width: 100%;height: 45px;background-color: white;text-align: center}
+.LoadingBar a{line-height: 40px;vertical-align: middle; font-size: 20px}
+.LoadingBar img{vertical-align: middle;}
+.Pagefooter{ width: 100%; text-align: center;background-color: #129BF0; color: white;padding: 15px 0px;}
+.Pagefooter a{ margin: 0 5%;font-size: 15px; text-decoration: none;color: white}
+.Pagefooter p{margin: 0px}
+
 ul{list-style: none;padding-left: 0px;}
+
+input,button {
+        appearance: none;
+        -moz-appearance: none;
+        -webkit-appearance: none;
+    }
